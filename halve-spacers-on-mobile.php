@@ -123,7 +123,7 @@ new Maz_hspm_Fields_Plugin();
 function maz_halve_spacers_on_mobile_init() {
   global $gloablVersion;
 
-  wp_enqueue_script( 'mazHspmVars_handler', 'path-to-file', array( 'jquery' ) );
+  // wp_enqueue_script( 'mazHspmVars_handler', 'path-to-file', array( 'jquery' ) );
   $phpInfo = array(
     'breakpoint' => get_option( 'maz_hspm_breakpoint' ),
     'ratio' => get_option( 'maz_hspm_ratio' )
